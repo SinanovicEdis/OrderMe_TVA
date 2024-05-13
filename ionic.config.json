@@ -1,0 +1,7 @@
+{
+  "name": "OrderMe_TVA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
