@@ -1,0 +1,64 @@
+:root {
+    --ion-color-favorite-white: #ffffff;
+    --ion-color-favorite-black: #000000
+}
+
+.ion-color-favorite-white {
+    --ion-color-base: var(--ion-color-favorite-white);
+}
+
+.ion-color-favorite-black {
+    --ion-color-base: var(--ion-color-favorite-black);
+}
+
+ion-content {
+    --ion-background-color: #E3D0BC;
+}
+
+ion-card-header {
+    text-align: center;
+}
+
+ion-card {
+    --ion-background-color: #222428;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.login-card-buttons {
+    display: grid;
+    align-content: center;
+
+    padding: 20px;
+    text-align: center;
+}
+
+.delimiter {
+    padding-top: 20px;
+}
+
+.userText {
+    text-align: left;
+    padding: 5px;
+}
+
+.userInput {
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.providersLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.provider {
+    padding: 10px;
+}
+
+ion-img {
+    width: 20%;
+}
