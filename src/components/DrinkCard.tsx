@@ -7,14 +7,14 @@ const DrinkCard: React.FC = () => {
             <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" width={"100%"}></img>
             <IonButton>Dodaj</IonButton>
 
-            {<IonCardHeader>
+            {/* <IonCardHeader>
                     <IonCardTitle>Card Title</IonCardTitle>
                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
                 </IonCardHeader>
 
                 <IonCardContent>
                     Here's a small text description for the card content. Nothing more, nothing less.
-                </IonCardContent> }
+                </IonCardContent> */}
         </IonCard>
     );
 };
