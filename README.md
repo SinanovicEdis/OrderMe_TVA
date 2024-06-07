@@ -2,8 +2,10 @@
 
 OrderMe is a cross-platform application that allows users to order drinks at the table when they come to a bar. The app is built using React and the Ionic framework, with Firebase for database and authentication.
 
-![Ionic Framework](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/1200px-Ionic-logo-landscape.svg.png)
-![Firebase](https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ionic-logo-landscape.svg/1200px-Ionic-logo-landscape.svg.png" alt="Ionic Framework" width="45%" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png" alt="Firebase" width="45%" />
+</p>
 
 ## Table of Contents
 
