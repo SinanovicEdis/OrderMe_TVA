@@ -1,0 +1,66 @@
+:root {
+    --ion-color-favorite-white: #ffffff;
+    --ion-color-favorite-black: #000000;
+    --ion-color-favorite-green: #314D45
+}
+
+.ion-color-favorite-white {
+    --ion-color-base: var(--ion-color-favorite-white);
+}
+
+.ion-color-favorite-black {
+    --ion-color-base: var(--ion-color-favorite-black);
+}
+
+.ion-color-favorite-green {
+    --ion-color-base: var(--ion-color-favorite-green);
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.qr-code-img {
+    width: 30vh;
+}
+
+.scan-btn {
+    position: absolute;
+    bottom: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    height: 100%;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
