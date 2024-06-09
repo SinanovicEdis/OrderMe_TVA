@@ -1,0 +1,55 @@
+.header-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+.header-item,
+.header-item-info {
+    font-size: 15px;
+    text-align: left;
+}
+
+.header-item-info {
+    padding: 2%;
+    font-size: 12px;
+    text-align: left;
+}
+
+.invoice-order-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100%;
+    padding: 1%;
+}
+
+.invoice-order-item-title {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px dotted black;
+
+}
+
+.invoice-order-item {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 2%;
+    text-align: center;
+}
+
+.invoice-info-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 10px;
+}
+
+.invoice-info-item {
+    padding: 1%;
+}
+
+.qr-code-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
