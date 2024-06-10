@@ -1,0 +1,13 @@
+.buttons-container-2 {
+    display: grid;
+    grid-template-columns: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons-container-item {
+    font-size: 20px;
+    text-transform: uppercase;
+}
