@@ -1,0 +1,21 @@
+.order-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    height: 100%;
+}
+
+.order-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.order-item-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-bottom: -50px;
+}
